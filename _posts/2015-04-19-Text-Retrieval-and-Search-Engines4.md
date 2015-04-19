@@ -33,6 +33,10 @@ Focused crawling is to crawl just some pages about a particular topic(e.g., all 
 Incremental/repeated crawling  is to crawl the pages which has been modified after last successful crawl.
 
 #### What kind of pages should have a higher priority for recrawling in incremental crawling?
+
+Frequently updated pages
+Frequently accessed pages
+
 #### What can we do if the inverted index doesn’t fit in any single machine?
 #### What’s the basic idea of Google File System (GFS)?
 #### How does MapReduce work? What are the two key functions that a programmer needs to implement when programming with a MapReduce framework?
