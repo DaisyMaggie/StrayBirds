@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Text Retrieval and Search Engines 1
-comments: true
+comments: false
 ---
 
 #### What does a computer have to do in order to understand a natural language sentence?
