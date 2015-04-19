@@ -6,13 +6,13 @@ comments: false
 
 #### What are some of the general challenges in building a web search engine?
   
-1. Scalability challenges
+####### Scalability challenges
   
    * How to handle the size of the web and ensure completeness of coverage?
    * How to serve many user queries quickly?
 
-2. Low quality information and spams
-3. New pages are constantly created and soem pages may be updated very quickly
+#######  Low quality information and spams
+#######  New pages are constantly created and soem pages may be updated very quickly
 
 #### What is a crawler? How can we implement a simple crawler?
 
