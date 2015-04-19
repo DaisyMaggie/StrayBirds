@@ -24,9 +24,13 @@ Building a simple crawler
   * Fetch pages from the web
   * Parse fetched pages for hyperlinks; add them to the queue
   * Follow the hyperlinks in the queue
-
+ 
 
 #### What is focused crawling? What is incremental crawling?
+
+Focused crawling is to crawl just some pages about a particular topic(e.g., all pages about "automobiles").
+
+Incremental/repeated crawling  is to crawl the pages which has been modified after last successful crawl.
 
 #### What kind of pages should have a higher priority for recrawling in incremental crawling?
 #### What can we do if the inverted index doesn’t fit in any single machine?
