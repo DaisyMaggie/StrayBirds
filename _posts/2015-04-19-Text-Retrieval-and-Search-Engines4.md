@@ -19,10 +19,12 @@ New pages are constantly created and soem pages may be updated very quickly
 A crawler/spider/robot is a program that visits web sites and reads their pages and other information in order to create entries for a search engine index.
 
 Building a simple crawler
+
   * Start with a set of "seed pages" in a priority queue
   * Fetch pages from the web
   * Parse fetched pages for hyperlinks; add them to the queue
   * Follow the hyperlinks in the queue
+
 
 #### What is focused crawling? What is incremental crawling?
 
