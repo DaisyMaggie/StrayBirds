@@ -8,8 +8,8 @@ comments: false
   
 1. Scalability challenges
   
-  * How to handle the size of the web and ensure completeness of coverage?
-  * How to serve many user queries quickly?
+   * How to handle the size of the web and ensure completeness of coverage?
+   * How to serve many user queries quickly?
 
 2. Low quality information and spams
 3. New pages are constantly created and soem pages may be updated very quickly
