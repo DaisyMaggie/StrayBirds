@@ -14,8 +14,9 @@ Scalability challenges
 Low quality information and spams
 New pages are constantly created and soem pages may be updated very quickly
 
-#### What is a crawler? How can we implement a simple crawler?
 
+#### What is a crawler? How can we implement a simple crawler?
+A crawler/spider/robot is a program that visits web sites and reads their pages and other information in order to create entries for a search engine index.
 
 #### What is focused crawling? What is incremental crawling?
 
