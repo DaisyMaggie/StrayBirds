@@ -5,8 +5,10 @@ comments: false
 ---
 
 #### What are some of the general challenges in building a web search engine?
-
-
+  
+  Scalability challenges
+      How to handle the size of the web and ensure completeness of coverage?
+      How to serve many user queries quickly?
 
 #### What is a crawler? How can we implement a simple crawler?
 
