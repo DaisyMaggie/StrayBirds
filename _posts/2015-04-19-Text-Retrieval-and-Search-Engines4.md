@@ -38,6 +38,9 @@ Frequently updated pages
 Frequently accessed pages
 
 #### What can we do if the inverted index doesn’t fit in any single machine?
+
+Store the data in multiple machines and process the data in parallel.
+
 #### What’s the basic idea of Google File System (GFS)?
 #### How does MapReduce work? What are the two key functions that a programmer needs to implement when programming with a MapReduce framework?
 #### How can we use MapReduce to build an inverted index in parallel?
