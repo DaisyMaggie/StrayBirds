@@ -54,8 +54,14 @@ The input data is separated into multiple key/value pairs; each key/value pair i
 * Map funtion:
   
   Input: key denotes the document id; value denotes the words in the document
+  
   Output: a word in the document as key; count of the word in the document plus document id as value
   
+* Reduce function
+
+  Input: a word as key; list of valus (D, count) D denotes the the if of the document which contain the word and count denotes the frequency of the word in the document
+  
+  reduce just concat the key/value pairs by key
 
 #### What is anchor text? Why is it useful for improving search accuracy?
 #### What is a hub page? What is an authority page?
