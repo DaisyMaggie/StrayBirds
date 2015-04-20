@@ -52,7 +52,10 @@ The input data is separated into multiple key/value pairs; each key/value pair i
 #### How can we use MapReduce to build an inverted index in parallel?
 
 * Map funtion:
+  
   Input: key denotes the document id; value denotes the words in the document
+  Output: a word in the document as key; count of the word in the document plus document id as value
+  
 
 #### What is anchor text? Why is it useful for improving search accuracy?
 #### What is a hub page? What is an authority page?
