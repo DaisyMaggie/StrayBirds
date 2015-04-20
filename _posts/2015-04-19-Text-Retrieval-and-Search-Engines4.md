@@ -12,7 +12,8 @@ Scalability challenges
    * How to serve many user queries quickly?
 
 Low quality information and spams
-New pages are constantly created and soem pages may be updated very quickly
+
+New pages are constantly created and some pages may be updated very quickly
 
 
 #### What is a crawler? How can we implement a simple crawler?
@@ -64,11 +65,40 @@ The input data is separated into multiple key/value pairs; each key/value pair i
   reduce just concat the key/value pairs by key
 
 #### What is anchor text? Why is it useful for improving search accuracy?
+
+Anchor text is the description of a page a link points to. It is the visible, clickable text in a hyperlink. Anchor text is weighted (ranked) highly in search engine algorithms, because the linked text is usually relevant to the landing page.
+
 #### What is a hub page? What is an authority page?
+
+A hub page is a page linking to a lot of page.
+
+An authority page is a page having a lot of incoming links.
+
+
 #### What kind of web pages tend to receive high scores from PageRank?
+
+Authority page 
+
 #### How can we interpret PageRank from the perspective of a random surfer “walking” on the web?
+
+PageRank score is the probability that a random surfer visits a particular page.
+
 #### How exactly do you compute PageRank scores?
+
+ * Picture the Web net as a directed graph, with nodes represented by web pages and edges represented by the links between them;
+ 
+ * Create transition matrix A of the graph: each page should transfer evenly its importance to the pages that it links to;
+ 
+ * Denote by v the initial rank vector: initially the importance is uniformly distributed among the nodes; 
+ 
+ * Update the rank of each page by adding to the current value the importance of the incoming links. This is the same as multiplying the matrix A with v;
+ 
+ * Repeat update until convergence.
+
 #### How does the HITS algorithm work?
+
+
+
 #### What’s the basic idea of learning to rank?
 #### How can logistic regression be used to combine multiple features for improving ranking accuracy of a search engine?
 #### What is content-based information filtering?
