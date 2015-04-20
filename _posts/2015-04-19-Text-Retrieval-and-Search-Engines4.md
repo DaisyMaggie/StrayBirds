@@ -42,6 +42,9 @@ Frequently accessed pages
 Store the data in multiple machines and process the data in parallel.
 
 #### What’s the basic idea of Google File System (GFS)?
+
+The GFS master works as the simple centrallized management of the file system. The GFS client obtains the chunk’s handle and locations from the GFS master and then obtains the actual file data directly from one of the GFS chunkservers without involving other nodes.
+
 #### How does MapReduce work? What are the two key functions that a programmer needs to implement when programming with a MapReduce framework?
 #### How can we use MapReduce to build an inverted index in parallel?
 #### What is anchor text? Why is it useful for improving search accuracy?
