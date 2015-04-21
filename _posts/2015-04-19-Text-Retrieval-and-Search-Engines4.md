@@ -97,12 +97,24 @@ PageRank score is the probability that a random surfer visits a particular page.
 
 #### How does the HITS algorithm work?
 
-
+HITS makes use of the link structure of the web in order to discover and rank pages relevant for a particular topic. HITS identifies good authorities and hubs for a topic by assigning two numbers to a page: an authority and a hub weight. These weights are defined recursively. A higher authority weight occurs if the page is pointed to by pages with high hub weights. A higher hub weight occurs if the page points to many pages with high authority weights.
 
 #### What’s the basic idea of learning to rank?
+
+Using machine learning to combine different features to improve the ranking function.
+
 #### How can logistic regression be used to combine multiple features for improving ranking accuracy of a search engine?
+
+
+
 #### What is content-based information filtering?
+
+
+
 #### How can we use a linear utility function to evaluate a filtering system? How should we set the coefficients in such a linear utility function?
+
+
+
 #### How can we extend a retrieval system to perform content-based information filtering?
 #### What is exploration-exploitation tradeoff?
 #### How does the beta-gamma threshold learning algorithm work?
